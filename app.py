@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import pickle
+import sklearn
 
 # ----------------------------------
 # Page config
@@ -64,3 +65,4 @@ if st.button("Predict Wine Quality"):
 
 
     st.success(f"🍷 Predicted Wine Quality: **{int(prediction[0])}**")
+
